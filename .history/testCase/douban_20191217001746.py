@@ -7,6 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 import unittest
 
+# 1
 logger = Logger('douban').getlogger()
 
 
