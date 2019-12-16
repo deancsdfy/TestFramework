@@ -1,0 +1,22 @@
+2019-12-15 20:04:15,265[163][ test_openEmail]INFO-login sucessful
+2019-12-15 20:04:16,906[163][ test_openEmail]INFO-open EmailComponent suessful
+2019-12-15 20:04:17,177[163][ test_openEmail]INFO-open Email suessful
+2019-12-15 20:05:54,460[163][ test_openEmail]INFO-login sucessful
+2019-12-15 20:05:56,099[163][ test_openEmail]INFO-open EmailComponent suessful
+2019-12-15 20:05:56,371[163][ test_openEmail]INFO-open Email suessful
+2019-12-15 21:47:35,534[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:49:12,787[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:50:35,156[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:52:06,287[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:53:45,385[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:54:35,156[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:54:36,880[163][ test_closeIndexAd]INFO-<selenium.webdriver.remote.webelement.WebElement (session="a3d0341b1c5c3d343184f20fe65d0fa4", element="9ab50348-892a-47d6-a968-0313d4c1f845")>
+2019-12-15 21:55:56,087[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:55:58,177[163][ test_closeIndexAd]INFO-closeAdBtn find
+2019-12-15 21:58:52,590[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 21:58:54,402[163][ test_closeIndexAd]INFO-closeAdBtn find
+2019-12-15 22:00:55,667[163][ test_closeIndexAd]INFO-login sucessful
+2019-12-15 22:00:57,661[163][ test_closeIndexAd]INFO-closeAdBtn find
+2019-12-15 23:01:31,934[163][ test_openEmail]INFO-login sucessful
+2019-12-15 23:01:33,806[163][ test_openEmail]INFO-open EmailComponent suessful
+2019-12-15 23:01:34,083[163][ test_openEmail]INFO-open Email suessful
