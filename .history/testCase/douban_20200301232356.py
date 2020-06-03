@@ -7,13 +7,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 import unittest
 
-
 logger = Logger('douban').getlogger()
 
 
 class Douban(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
         self.indexUrl = 'https://movie.douban.com/'
         self.driver.get(self.indexUrl)
 

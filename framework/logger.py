@@ -14,7 +14,8 @@ class Logger(object):
  
         #创建一个hanlder，用于写入日志文件
         request_time = time.strftime('%Y%m%d',time.localtime(time.time())) #生成一个当前日期的日期字符串
-        log_path = os.getcwd() + '/logs/' # os.getcwd()获取当前工作目录,os.path.dirname(os.getcwd())获取当前目录的上一级目录
+        # log_path = os.getcwd() + '/logs/' # os.getcwd()获取当前工作目录,os.path.dirname(os.getcwd())获取当前目录的上一级目录
+        log_path = 'D:/study/UI/web/WebTest/logs/'
         log_name = log_path + logger + '_' + request_time + '.log' #拼成日志名称 =路径+时间戳.log<br><br>　　　　 #创建一个handler，用于生成在磁盘上
         fh = logging.FileHandler(log_name) #logging模块自带的三个handler之一。继承自StreamHandler。将日志信息输出到磁盘文件上。
         fh.setLevel(logging.INFO)

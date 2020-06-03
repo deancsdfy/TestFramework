@@ -2,7 +2,9 @@
 import smtplib
 # 发送字符串的邮件
 from email.mime.text import MIMEText
+from framework.logger import Logger
 
+logger = Logger('log').getlogger()
 def sendTestReportEmail():
     # 设置服务器所需信息
     fromaddr = '2524165845@qq.com'  # 邮件发送方邮箱地址
@@ -10,7 +12,7 @@ def sendTestReportEmail():
     toaddrs = ['deancsdfy@163.com']  # 邮件接受方邮箱地址，注意需要[]包裹，这意味着你可以写多个邮件地址群发
     
     # 读取测试报告内容
-    with open('report\HTMLREport.html','rb') as f:
+    with open('report\HtmlReport.html','rb') as f:
         content = f.read()
     
     # 邮件内容设置，邮件正文以HTML解析展示
@@ -27,6 +29,7 @@ def sendTestReportEmail():
         server = smtplib.SMTP_SSL('smtp.qq.com',465)  # 163邮箱服务器地址，端口默认为25
         server.login(fromaddr, password)
         server.sendmail(fromaddr, toaddrs, msg.as_string())
+        logger.info('邮件发送成功')
         server.quit()
     
     except smtplib.SMTPException as e:
