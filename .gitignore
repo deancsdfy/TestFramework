@@ -1,0 +1,5 @@
+*.log
+report/
+.history/
+.vscode/
+.pytest_cache/
