@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79638c1c-ca55-460a-9fe4-0eb5ba20a0cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/test_DoubanMovie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/test_Email163.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="79638c1c-ca55-460a-9fe4-0eb5ba20a0cd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +84,7 @@
       <updated>1576328391869</updated>
       <workItem from="1576328393036" duration="59000" />
       <workItem from="1576904618517" duration="58000" />
-      <workItem from="1605709583731" duration="4492000" />
+      <workItem from="1605709583731" duration="4800000" />
     </task>
     <task id="LOCAL-00001" summary="add auto open test_report">
       <created>1605710412980</created>
@@ -98,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605710412980</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add auto open test_report">
+      <created>1605714359297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605714359297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,10 +111,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="add auto open test_report" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1116" y="306" key="CommitChangelistDialog2" timestamp="1605710412202">
+    <state x="1116" y="306" key="CommitChangelistDialog2" timestamp="1605714358822">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1116" y="306" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1605710412202" />
+    <state x="1116" y="306" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714358822" />
+    <state width="2507" height="386" key="GridCell.Tab.0.bottom" timestamp="1605714320434">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="386" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605714320434" />
+    <state width="2507" height="386" key="GridCell.Tab.0.center" timestamp="1605714320433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="386" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605714320433" />
+    <state width="2507" height="386" key="GridCell.Tab.0.left" timestamp="1605714320433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="386" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605714320433" />
+    <state width="2507" height="386" key="GridCell.Tab.0.right" timestamp="1605714320433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="386" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605714320433" />
+    <state x="772" y="368" key="Vcs.Push.Dialog.v2" timestamp="1605714371368">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="772" y="368" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605714371368" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WebTest_pytest$runTest.coverage" NAME="runTest Coverage Results" MODIFIED="1605711201377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

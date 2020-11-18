@@ -1,0 +1,9 @@
+brwserType:
+  #browserName : Firefox
+  browserName : Chrome
+  #browserName : IE
+
+URL:
+  douban_url : https://movie.douban.com/
+  email163_url : https://email.163.com/
+  homepage_url : https://klc.test.gifshow.com/live
