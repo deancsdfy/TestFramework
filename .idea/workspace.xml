@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79638c1c-ca55-460a-9fe4-0eb5ba20a0cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/pageMethon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/SeleniumMethon.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/SeleniumMethon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/email.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log_20200602.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log_20200603.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/assets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/test_douban.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/test_email.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_DoubanMovie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_Email163.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +15,21 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WebTest$runTest.coverage" NAME="runTest Coverage Results" MODIFIED="1576907704659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="439ab898-0ac3-4dbc-84a7-7356c035afeb" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="580" />
-    <option name="y" value="200" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
   <component name="ProjectId" id="1kT15J9NJhqdoJQPValCxfBKEYs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,10 +37,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\WebTest_pytest\case" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="runTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -94,12 +89,33 @@
       <updated>1576328391869</updated>
       <workItem from="1576328393036" duration="59000" />
       <workItem from="1576904618517" duration="58000" />
-      <workItem from="1605709583731" duration="577000" />
+      <workItem from="1605709583731" duration="4492000" />
     </task>
+    <task id="LOCAL-00001" summary="add auto open test_report">
+      <created>1605710412980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605710412980</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add auto open test_report" />
+    <option name="LAST_COMMIT_MESSAGE" value="add auto open test_report" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1116" y="306" key="CommitChangelistDialog2" timestamp="1605710412202">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1116" y="306" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1605710412202" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WebTest_pytest$runTest.coverage" NAME="runTest Coverage Results" MODIFIED="1605711201377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>
